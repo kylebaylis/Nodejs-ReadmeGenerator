@@ -39,11 +39,6 @@ const questions = readmeData => {
         },
         {
             type: 'input',
-            name: 'license',
-            message: 'What type of license will this project have?'
-        },
-        {
-            type: 'input',
             name: 'contributing',
             message: 'Enter contribution notes:'
         },
@@ -56,6 +51,11 @@ const questions = readmeData => {
             type: 'input',
             name: 'questions',
             message: 'Enter common questions:'
+        },
+        {
+            type: 'input',
+            name: 'license',
+            message: 'What type of license will this project have?'
         }
     ])
     // to display answers
