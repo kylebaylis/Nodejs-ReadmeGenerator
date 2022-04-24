@@ -67,7 +67,7 @@ const questions = readmeData => {
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     return new Promise((resolve, reject) => {
-        fs.writeFile('./readme/readme.txt', fileName, err => {
+        fs.writeFile('./readme/readme.html', fileName, err => {
             if (err) {
                 reject(err);
                 return;
