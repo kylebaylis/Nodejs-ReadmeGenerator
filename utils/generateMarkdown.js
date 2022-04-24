@@ -20,22 +20,25 @@ ${data.description}
 ## Table of Contents
 ${data.table}
 
-## Installation Instructions
+## Installation
 ${data.installation}
 
-## Usage Info
+## Usage
 ${data.usage}
 
-## Contribution Notes
+## Contributing
 ${data.contributing}
 
-## Testing Info
+## Tests
 ${data.tests}
 
-## Frequently Asked Questions
+## Questions
 ${data.questions}
 
-## Licensing
+GitHub Profile: [GitHub.com/${data.username}](github.com/${data.username})
+For further questions, email: ${data.email}
+
+## License
 ${data.license}
 
 `;

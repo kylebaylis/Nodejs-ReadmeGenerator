@@ -11,11 +11,22 @@ const questions = readmeData => {
     ===================
     `);
 
+    // questions for readme file
     return inquirer.prompt([
         {
             type: 'input',
+            name: 'username',
+            message: 'What is your GitHub username?'
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is the best email to reach your at for questions?'
+        },
+        {
+            type: 'input',
             name: 'title',
-            message: 'What is the title of your project?'
+            message: 'Enter the Title of your project:'
         },
         {
             type: 'input',
