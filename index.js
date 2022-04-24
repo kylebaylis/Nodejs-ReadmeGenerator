@@ -57,15 +57,20 @@ const questions = readmeData => {
             message: 'Enter common questions:'
         }
     ])
+    .then(answers => {
+        console.log(answers);
+    });
 };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+
+};
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    questions();
+};
 
 // Function call to initialize app
-//init();
-
-//questions();
+init();
