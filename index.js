@@ -21,7 +21,7 @@ const questions = readmeData => {
         {
             type: 'input',
             name: 'email',
-            message: 'What is the best email to reach your at for questions?'
+            message: 'What is the best email to reach you at for questions?'
         },
         {
             type: 'input',
